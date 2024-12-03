@@ -46,8 +46,7 @@ For converting PDF to image, we have used pdf2image library.
 
 Tried extracting data from source files without any processing, as they are not in proper format to be extracted, the extracted data was not as expected.
 
-![dark_image](https://github.com/user-attachments/assets/e04474c8-2ec9-422d-b311-238b211d876a)
-
+![dark_image](https://github.com/user-attachments/assets/6bad4806-0f90-47ac-8c66-4f80d3492f17)
 
 
 ### Extracted data from the above image
@@ -74,7 +73,7 @@ or 1 month
 
 we decided to preprocess the image using opencv module, before extracting data from them. For that we have first used normal thresholding and checked, which resulted in below image
 
-![filter_dark](https://github.com/user-attachments/assets/3a3312bd-9700-491c-808a-a33c93559a60)
+![filter_dark](https://github.com/user-attachments/assets/add7c539-b433-494a-a79e-e243f09a9659)
 
 
 So, if there is any shadow or some noise, the normal thresholding fade out the area. which will result in loss of data. 
@@ -82,7 +81,7 @@ So, if there is any shadow or some noise, the normal thresholding fade out the a
 In the search of better approach of this problem, we have decided to use adaptive thresholding technique. In this technique, the image will be divided into sub image and the thresholding value will be different for all sub regions.
 And the end result of adaptive thresholding is much better compared to normal thresholding.
 
-![adaptive_filter_dark](https://github.com/user-attachments/assets/f43a9cdc-543a-421c-939e-664deeaa3893)
+![adaptive_filter_dark](https://github.com/user-attachments/assets/5830ff16-5131-4f59-b467-91c9c73bcd99)
 
 
 ### After preprocessing the image data extraction
