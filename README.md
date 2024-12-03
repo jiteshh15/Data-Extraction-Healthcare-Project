@@ -34,7 +34,8 @@ Here, we are using the Python programming language and pytesseract google librar
 
 ## Workflow
 
-![workflow](https://github.com/user-attachments/assets/e04a749f-5ca9-4f6b-95c5-85961e2faf2e)
+![workflow](https://github.com/user-attachments/assets/41309a73-53f8-422f-b669-dca1c71e2200)
+
 
 
 ### PDF to Image
