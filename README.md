@@ -110,9 +110,8 @@ Lialda - take 2 pill everyday for 1 month
 ### Notebook
 
 For all these above trials, used jupyter books and developed the small bits of the functionalities., which can be used later while designing the class.
+Refer above for all the notebooks
 
-
----
 ### FastApi
 
 Used FastAPI for hosting the server of the project. FastApi, as name suggest is help us to develop fast and some other advantages are,
@@ -121,9 +120,6 @@ Used FastAPI for hosting the server of the project. FastApi, as name suggest is 
 - In build Documentation
 - Fast running and performance
 
----
-
----
 ## Result
 
 This backend functionality can be integrated into the Mr.X Analytics existing software and data can be extracted automatically. 
