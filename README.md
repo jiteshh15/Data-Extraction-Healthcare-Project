@@ -111,6 +111,7 @@ Lialda - take 2 pill everyday for 1 month
 
 For all these above trials, used jupyter books and developed the small bits of the functionalities., which can be used later while designing the class.
 
+
 ---
 ### FastApi
 
